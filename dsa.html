@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Music Playlist Manager</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <h1>🎵 Music Playlist Manager</h1>
+        <p class="subtitle">Your music, your playlist!</p>
+
+        <div class="input-section">
+            <input
+                type="text"
+                id="songInput"
+                placeholder="Enter song name"
+            >
+
+            <button id="addButton">Add Song</button>
+        </div>
+
+        <h2>Your Playlist</h2>
+
+        <ul id="playlist"></ul>
+
+        <p id="songCount">Total Songs: 0</p>
+
+        <div class="controls">
+            <button id="previousButton">⏮ Previous</button>
+            <button id="nextButton">Next ⏭</button>
+        </div>
+
+        <p id="currentSong">No song selected</p>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
